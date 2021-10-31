@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.contenedor{
+    display: grid;
+    border: 1px red;
+}
+
+
+
+.banner img{
+    width: 100%;
+    height: auto;
+  }
+
+  p{
+  font-size: 50px;
+}
+
+
+header nav{
+  background: #3496db;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: sticky top;
+  top: 0;
+}
+
+header nav ul{
+  list-style: none;
+  overflow: hidden;
+ 
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Judson', serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: #2980b9;
+}
